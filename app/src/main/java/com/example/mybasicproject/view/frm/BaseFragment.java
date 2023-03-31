@@ -51,8 +51,7 @@ public abstract class BaseFragment<V extends ViewBinding, M extends ViewModel> e
         initViews();
     }
 
-    private void initViews() {
-    }
+    protected abstract void initViews();
 
     protected abstract Class<M> getClassVM();
 

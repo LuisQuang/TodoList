@@ -6,6 +6,11 @@ import com.example.mybasicproject.viewmodel.CommonVM;
 public class MainActivity extends BaseAct<ActivityMainBinding, CommonVM> {
 
     @Override
+    protected void initViews() {
+
+    }
+
+    @Override
     protected Class<CommonVM> getClassVM() {
         return CommonVM.class;
     }
