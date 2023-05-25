@@ -4,7 +4,7 @@
     android:layout_height="50dp"
     android:layout_marginHorizontal="10dp"
     android:layout_marginVertical="5dp"
-    android:background="#D3F8F8F8"
+    android:background="#D3BD2D2D"
     android:paddingVertical="10dp"
     app:cardCornerRadius="20dp">
 

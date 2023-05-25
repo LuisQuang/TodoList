@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lequanganh.todolist.view.frm.FragmentOne">
+    tools:context="com.anhql.todolist.view.frm.FragmentOne">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

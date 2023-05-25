@@ -4,7 +4,7 @@
     android:id="@+id/ln_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lequanganh.todolist.view.act.Act">
+    tools:context="com.anhql.todolist.view.act.Act">
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
