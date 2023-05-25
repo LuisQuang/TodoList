@@ -1,4 +1,4 @@
-package com.example.mybasicproject.view.frm;
+package com.lequanganh.todolist.view.frm;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewbinding.ViewBinding;
 
-import com.example.mybasicproject.OnMainCallBack;
+import com.lequanganh.todolist.OnMainCallBack;
 
 public abstract class BaseFragment<V extends ViewBinding, M extends ViewModel> extends Fragment implements View.OnClickListener {
     protected V binding;

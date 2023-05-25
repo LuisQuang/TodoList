@@ -1,4 +1,4 @@
-package com.example.mybasicproject.view.act;
+package com.lequanganh.todolist.view.act;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,9 +12,9 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewbinding.ViewBinding;
 
-import com.example.mybasicproject.OnMainCallBack;
-import com.example.mybasicproject.R;
-import com.example.mybasicproject.view.frm.BaseFragment;
+import com.anhql.todolist.R;
+import com.lequanganh.todolist.OnMainCallBack;
+import com.lequanganh.todolist.view.frm.BaseFragment;
 
 import java.lang.reflect.Constructor;
 

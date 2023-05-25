@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".viewmodel.App"
+        android:name="com.lequanganh.todolist.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/im_todolist"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyBasicProject"
+        android:theme="@style/Theme.TodoList"
         tools:targetApi="31">
         <activity
-            android:name=".view.act.MainActivity"
+            android:name="com.lequanganh.todolist.view.act.Act"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

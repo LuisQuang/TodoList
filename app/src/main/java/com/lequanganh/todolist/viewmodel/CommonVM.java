@@ -1,4 +1,4 @@
-package com.example.mybasicproject.viewmodel;
+package com.lequanganh.todolist.viewmodel;
 
 import androidx.lifecycle.ViewModel;
 

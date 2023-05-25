@@ -1,7 +1,9 @@
-package com.example.mybasicproject.viewmodel;
+package com.lequanganh.todolist.viewmodel;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+import com.lequanganh.todolist.App;
 
 public class CommonUtils {
     private static final String PREF_FILE = "PREF_FILE";
@@ -11,23 +13,27 @@ public class CommonUtils {
     }
 
     public static CommonUtils getInstance() {
-        if (instance != null) {
+        if (instance == null) {
             instance = new CommonUtils();
         }
         return instance;
     }
 
     public void savePref(String key, String value) {
+        if (key == null || key.isEmpty()) return;
+        if (value == null || value.isEmpty()) return;
         SharedPreferences pref = App.getInstance().getSharedPreferences(PREF_FILE, Context.MODE_PRIVATE);
         pref.edit().putString(key, value).apply();
     }
 
-    public void getPref(String key) {
+    public String getPref(String key) {
+        if (key == null || key.isEmpty()) return null;
         SharedPreferences pref = App.getInstance().getSharedPreferences(PREF_FILE, Context.MODE_PRIVATE);
-        pref.getString(key, null);
+        return pref.getString(key, null);
     }
 
     public void removePref(String key) {
+        if (key == null || key.isEmpty()) return;
         SharedPreferences pref = App.getInstance().getSharedPreferences(PREF_FILE, Context.MODE_PRIVATE);
         pref.edit().remove(key).apply();
     }
