@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TodoList</string>
+    <string name="app_name">Todo List</string>
     <string name="add_new_task">Add new task</string>
     <string name="title">Add task</string>
     <string name="description">Add title</string>
@@ -7,9 +7,13 @@
     <string name="go_to_school">Go to schools</string>
     <string name="add_content">Add content</string>
     <string name="priority">Priority</string>
-    <string name="quot">\"Never leave that till tomorrow which you can do today"\n - Benjamin Franklin</string>
+    <string name="quot">\"Never leave that till tomorrow which you can do today\"\n - Benjamin Franklin</string>
     <string name="todo_list">Todo List</string>
     <string name="edit_task">Edit task</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_you">Welcome you!</string>
+    <string name="your_mission_today">Your Mission today</string>
+    <string name="ngay">ngay</string>
+    <string name="just_do_it">Just do it!</string>
 </resources>

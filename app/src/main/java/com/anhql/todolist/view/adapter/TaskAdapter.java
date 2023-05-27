@@ -72,6 +72,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskHolder> {
         float cornerRadius = context.getResources().getDimension(R.dimen.corner_radius);
         backgroundDrawable.setCornerRadius(cornerRadius);
         backgroundDrawable.setColor(backgroundColor);
+        backgroundDrawable.setGradientRadius(cornerRadius);
         ViewCompat.setBackground(holder.itemView, backgroundDrawable);
     }
 

@@ -13,13 +13,18 @@
         android:theme="@style/Theme.TodoList"
         tools:targetApi="31">
         <activity
-            android:name="com.anhql.todolist.view.act.Main"
+            android:name=".view.act.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.act.Main"
+            android:exported="true">
+
         </activity>
     </application>
 

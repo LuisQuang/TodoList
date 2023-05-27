@@ -9,8 +9,11 @@
     <color name="my_black">#131212</color>
     <color name="white">#FFFFFFFF</color>
     <color name="my_red">#FF5844</color>
-    <color name="my_orange">#ECCC81</color>
-    <color name="my_blue">#90C6EC</color>
-    <color name="my_green">#98DC98</color>
+    <color name="my_orange">#F9F54B</color>
+    <color name="my_blue">#79B6E1</color>
+    <color name="my_green">#7BDA7B</color>
     <color name="my_bg">#B6E3E5</color>
+    <color name="my_blue2">#32407B</color>
+    <color name="my_yelow">#F9A825</color>
+    <color name="my_blue3">#6773B1</color>
 </resources>

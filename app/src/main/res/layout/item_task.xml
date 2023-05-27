@@ -28,8 +28,10 @@
             android:focusable="true"
             android:gravity="start|center"
             android:text="@string/go_to_school"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:fontFamily="@font/allura_regular"
+            android:textStyle="bold"
+            android:textColor="@color/my_blue2"
+            android:textSize="22sp" />
 
         <CheckBox
             android:id="@+id/chb_state"
